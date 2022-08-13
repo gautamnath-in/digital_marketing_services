@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Righteous&display=swap);
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  list-style: none
+}
+
+.company-items,
+.footer-logo,
+.footer-logos,
+.list-items,
+.logo,
+.nav-item,
+.nav-item-active,
+button {
+  cursor: pointer
+}
+
+header {
+  background: #3400ff;
+  color: #fff;
+  height: 460px
+}
+
+:focus {
+  outline: 0
+}
+
+.card-active {
+  box-shadow: 0 1px 3px rgb(0 0 0/30%)
+}
+
+::placeholder {
+  color: #000
+}
+
+.download-email form,
+.header-content,
+navbar {
+  display: flex;
+  justify-content: space-between
+}
+
+navbar {
+  padding: 20px 60px
+}
+
+a.nav-item-active {
+  background: #fff;
+  color: #3400ff;
+  padding: 0 2px;
+  margin-right: 25px;
+  border-radius: 4px
+}
+
+.header-content {
+  padding-left: 80px;
+  position: relative
+}
+
+.header-text {
+  margin-top: 100px
+}
+
+.header-text h2 {
+  font-size: 30px
+}
+
+.nav-item-active,
+.nav-item:not(svg) {
+  display: inline-block;
+  padding-right: 25px
+}
+
+.companies {
+  padding-left: 80px;
+  margin: 20px 0 80px;
+  font-size: 20px;
+  z-index: 2;
+  position: relative
+}
+
+.companies .company-items {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Righteous"
+}
+
+.companies .company-items:not(:last-child) {
+  margin-right: 20px
+}
+
+.api,
+.blog-cards,
+.blog-heading,
+.download-section {
+  padding-left: 80px;
+  padding-right: 80px
+}
+
+.blog-cards,
+.cards,
+.download-section,
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0
+}
+
+.blog-card {
+  display: flex
+}
+
+.cards>div {
+  border-radius: 10px;
+  padding: 20px
+}
+
+.blog-card,
+.card-active {
+  position: relative
+}
+
+.blog-card {
+  width: calc(50% - 15px);
+  box-shadow: 0 0 3px rgb(0 0 0/30%);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 9px
+}
+
+.blog-content {
+  padding: 20px
+}
+
+.blog-content br {
+  display: none
+}
+
+.about-author {
+  position: absolute;
+  bottom: 0;
+  left: calc(43% + 20px);
+  display: flex;
+  top: 87%
+}
+
+.blog-author {
+  margin: 10px 0 0 5px
+}
+
+.blog-bottom {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  filter: drop-shadow(0 0 .01rem #ccc)
+}
+
+.blog-card .blog-content,
+.blog-card .blog-image {
+  display: inline-grid
+}
+
+.faq-section {
+  margin-top: 80px;
+  background-color: #e9edff;
+  justify-content: space-between;
+  display: flex
+}
+
+.faq-content {
+  padding-left: 80px
+}
+
+.download-email button {
+  background-color: #5a31fc;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 30px
+}
+
+.download-email,
+.download-email input {
+  background-color: #e9edff;
+  border-radius: 30px
+}
+
+.download-email {
+  padding: 4px;
+  flex: 0 0 50%;
+  max-width: 50%
+}
+
+.download-email input {
+  padding-left: 30px;
+  width: 75%
+}
+
+.download-content h1 span {
+  font-weight: 400
+}
+
+.footer-section {
+  background: #3400ff;
+  margin-bottom: unset;
+  color: #fff;
+  padding: 80px
+}
+
+.footer-section .list,
+.logos-list {
+  margin-top: 30px
+}
+
+.footer-section .list-items {
+  display: inline-block
+}
+
+.footer-logos:not(:last-child) {
+  margin-right: 20px
+}
+
+.footer-section .list-items:first-child {
+  padding-right: 40px
+}
+
+.footer-section .list-items:last-child {
+  padding-left: 20px
+}
+
+.footer-right {
+  text-align: end
+}
+
+.footer-section .list-items:not(:last-child, :first-child),
+.logos-list .list-items:first-child {
+  border-right: 1px solid;
+  padding: 0 20px;
+  line-height: 1
+}
